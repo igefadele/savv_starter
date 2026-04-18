@@ -7,7 +7,10 @@
 
     <?php include ROOT_PATH . '/views/partials/header.php'; ?>
 
-    <main id="swup" class="transition-fade">
+    <!-- IMPORTANT: Wrap your main element or outermost container in #savv
+        This is to benefit from the SPA feel and SSG-like navigation speed
+    -->
+    <main id="savv" class="transition-fade">
         <?php echo $content; ?>
     </main>
 
