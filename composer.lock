@@ -227,16 +227,16 @@
         },
         {
             "name": "savadub/savv",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igefadele/savv_framework.git",
-                "reference": "6957af380a7f0decb010792c1bbcd6367662fa92"
+                "reference": "7adb3b866e1ec52b8ef7edbf8026addabd7abd28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igefadele/savv_framework/zipball/6957af380a7f0decb010792c1bbcd6367662fa92",
-                "reference": "6957af380a7f0decb010792c1bbcd6367662fa92",
+                "url": "https://api.github.com/repos/igefadele/savv_framework/zipball/7adb3b866e1ec52b8ef7edbf8026addabd7abd28",
+                "reference": "7adb3b866e1ec52b8ef7edbf8026addabd7abd28",
                 "shasum": ""
             },
             "require": {
@@ -272,10 +272,10 @@
                 "wordpress-fallback"
             ],
             "support": {
-                "source": "https://github.com/igefadele/savv_framework/tree/v2.3.0",
+                "source": "https://github.com/igefadele/savv_framework/tree/v2.3.1",
                 "issues": "https://github.com/igefadele/savv_framework/issues"
             },
-            "time": "2026-04-17T18:39:52+00:00"
+            "time": "2026-04-18T09:30:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

@@ -5,4 +5,8 @@
 
 <script src="<?= ROOT_PATH ?>/assets/js/main.js"></script>
 
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+
 <?php if (isset($extraJS)) echo $extraJS; ?>

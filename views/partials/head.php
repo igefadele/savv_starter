@@ -16,7 +16,9 @@
     <meta name="twitter:description" content="<?php echo $pageDescription ?? 'A lightweight PHP web framework'; ?>" />
 
     <link rel="icon" type="image/png" href="/assets/images/icons/favicon.png">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <?php if (isset($extraCSS)) echo $extraCSS; ?>

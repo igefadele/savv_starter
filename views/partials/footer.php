@@ -1,19 +1,16 @@
 <?php use App\Constants\ContactConstants; ?>
 
-<footer class="bg-dark text-light py-4 mt-5">
-    <div class="container-fluid">
-        <div class="row align-items-center text-center">
-            <div class="col-md-6">
-                <p class="mb-0">&copy; 2024 Savv Framework. Built with ❤️ by Savadub.</p>
-            </div>
-            <div class="col-md-6">
-                <a href="https://github.com/savadub/savv" class="text-light me-3" target="_blank">
-                    <i class="bi bi-github"></i> GitHub
-                </a>
-                <a href="mailto:info@savadub.com" class="text-light">
-                    <i class="bi bi-envelope"></i> Contact
-                </a>
-            </div>
-        </div>
-    </div>
+<!-- FOOTER -->
+<footer>
+    <span class="footer-brand">Your Brand</span>
+    <nav class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <span class="footer-copy">© <span id="yr"></span> Your Brand. All rights reserved.</span>
+    <a class="powered-badge" href="https://savv.savadub.com" target="_blank" rel="noopener">
+        Powered by <span>Savv</span>
+    </a>
 </footer>
