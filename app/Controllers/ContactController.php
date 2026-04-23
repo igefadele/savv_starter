@@ -78,10 +78,18 @@ class ContactController {
             $smtpTo   = config('mail.smtp.to');
             $smtpSecurity = config('mail.smtp.security');
 
-            if (!$smtpHost || !$smtpUser || !$smtpPass || !$smtpPort || !$smtpFrom || !$smtpTo) {
+            $missing = [];
+            if (!$smtpHost) $missing[] = 'SMTP_HOST';
+            if (!$smtpUser) $missing[] = 'SMTP_USER';
+            if (!$smtpPass) $missing[] = 'SMTP_PASSWORD';
+            if (!$smtpPort) $missing[] = 'SMTP_PORT';
+            if (!$smtpFrom) $missing[] = 'SMTP_FROM';
+            if (!$smtpTo) $missing[] = 'SMTP_TO';
+
+            if (!empty($missing)) {
                 return response()->json([
                     "status" => "error",
-                    "message" => "Email service is not configured correctly."
+                    "message" => "Email service is not configured correctly. Missing: " . implode(', ', $missing)
                 ], 500);
             }
 

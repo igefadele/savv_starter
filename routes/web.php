@@ -2,5 +2,5 @@
 
 // Specific route
 router()->get('/', function() {
-    require ROOT_PATH . '/views/pages/index.php';
+    require page_path('/views/pages/index.php');
 });
